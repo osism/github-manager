@@ -1,0 +1,37 @@
+---
+name: Update gitstyring submodule
+
+"on":
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/update-gitstyring-submodule.yml
+  schedule:
+    - cron: "0 * * * *"
+  repository_dispatch:
+    types:
+      - update-gitstyring-submodule
+
+jobs:
+
+  update-release-submodule:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: technote-space/create-pr-action@v2
+        with:
+          EXECUTE_COMMANDS: |
+            git submodule update --remote
+          COMMIT_EMAIL: 'bot@osism.io'
+          COMMIT_MESSAGE: |
+            chore: update release submodule
+            Signed-off-by: OSISM Bot <bot@osism.io>
+          COMMIT_NAME: 'OSISM Bot'
+          ONLY_DEFAULT_BRANCH: true
+          PR_BRANCH_NAME: 'update-gitstyring-submodule'
+          PR_BRANCH_PREFIX: 'chore/'
+          PR_TITLE: 'chore: update gitstyring submodule'
