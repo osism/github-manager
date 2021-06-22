@@ -1,0 +1,10 @@
+---
+users:
+  - name: "Christian Berendt"
+    login: "berendt"
+    visibility: Public
+    role: Owner
+  - name: "Tim Beermann"
+    login: "tibeer"
+    visibility: Private
+    role: Member

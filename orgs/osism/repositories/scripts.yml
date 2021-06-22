@@ -1,0 +1,28 @@
+---
+scripts:
+  default_branch: main
+  description: "Scripts that support the development processes"
+  homepage: null
+  language: Shell
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: false
+  teams:
+    maintain:
+    pull:
+    push:
+    admin:
+  collaborators:
+    maintain:
+      - tibeer
+    pull:
+    push:
+    admin:
+      - berendt
+  protection_rules: default_zuul
