@@ -1,12 +1,15 @@
-# Github permissions management through ansible
+# GitHub permissions management through Ansible
 
-This repository manages the GitHub permissions for the osism organization.
+This repository manages the GitHub permissions for the OSISM organization.
+
 Based on https://github.com/opentelekomcloud-infra/gitstyring.
 
-### Usage:
+## Usage
+
 ```sh
 export GITHUB_TOKEN="<github-token>"
 export GITHUB_USER="<github-username>"
-cd github-permissions
-ansible-playbook playbooks/run.yml -e github_repos_state=present -e root_dir="../../orgs"
+export GITSTYRING_ROOT_DIR="../../orgs"
+cd gitstyring
+ansible-playbook playbooks/run.yml -e github_repos_state=present
 ```

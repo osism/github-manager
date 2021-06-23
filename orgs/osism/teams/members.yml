@@ -1,2 +1,14 @@
 ---
-teams: {}
+teams:
+  maintainers:
+    description: Maintainers
+    visibility: secret
+    parent:
+    maintainer:
+    member:
+  admin:
+    description: Admins
+    visibility: secret
+    parent:
+    maintainer:
+    member:

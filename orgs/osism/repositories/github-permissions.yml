@@ -1,9 +1,9 @@
 ---
-scripts:
+github-permissions:
   default_branch: main
-  description: Scripts that support the development processes
+  description: GitHub permissions management through Ansible
   homepage: https://www.osism.tech
-  language: Shell
+  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
