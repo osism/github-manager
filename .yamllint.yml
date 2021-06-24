@@ -3,3 +3,5 @@ extends: default
 
 rules:
   comments: enable
+  line-length:
+    max: 250
