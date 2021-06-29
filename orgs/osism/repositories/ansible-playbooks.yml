@@ -1,0 +1,29 @@
+---
+ansible-playbooks:
+  default_branch: master
+  description: All Ansible playbooks for the individual Ansible container images are stored in this repository
+  homepage: https://www.osism.tech
+  language: YAML
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: false
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  protection_rules: []
+  topics: []
