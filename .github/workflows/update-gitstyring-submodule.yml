@@ -14,7 +14,7 @@ name: Update gitstyring submodule
 
 jobs:
 
-  update-release-submodule:
+  update-gitstyring-submodule:
 
     runs-on: ubuntu-latest
 
@@ -28,7 +28,8 @@ jobs:
             git submodule update --remote
           COMMIT_EMAIL: 'bot@osism.io'
           COMMIT_MESSAGE: |
-            chore: update release submodule
+            chore: update gitstyring submodule
+
             Signed-off-by: OSISM Bot <bot@osism.io>
           COMMIT_NAME: 'OSISM Bot'
           ONLY_DEFAULT_BRANCH: true
