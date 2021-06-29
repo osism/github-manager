@@ -1,0 +1,29 @@
+---
+openstack-ironic-images:
+  default_branch: main
+  description: This repository is used to manage build recipes for creating images for use on baremetal systems.
+  homepage: https://www.osism.tech
+  language: SHELL
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: false
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  protection_rules: []
+  topics: []
