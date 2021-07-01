@@ -1,9 +1,9 @@
 ---
 openstack-project-manager:
   default_branch: master
-  description: TBD
+  description: Script to manage projects on OpenStack
   homepage: https://www.osism.tech
-  language: PYTHON
+  language: python
   archived: false
   has_issues: true
   has_projects: false

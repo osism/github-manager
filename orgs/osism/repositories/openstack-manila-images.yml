@@ -1,9 +1,9 @@
 ---
 openstack-manila-images:
   default_branch: main
-  description: TBD
+  description: Machine images for use with the OpenStack Manila service
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false

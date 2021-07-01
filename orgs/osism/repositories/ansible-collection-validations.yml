@@ -1,9 +1,9 @@
 ---
 ansible-collection-validations:
   default_branch: main
-  description: TBD
+  description: Ansible collection with validation roles
   homepage: https://www.osism.tech
-  language: YAML
+  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,6 @@ ansible-collection-validations:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - ansible
+    - ansible-collection

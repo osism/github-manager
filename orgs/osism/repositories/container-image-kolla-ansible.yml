@@ -3,7 +3,7 @@ container-image-kolla-ansible:
   default_branch: master
   description: Container image which contains Ansible playbooks for deployment of OpenStack
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,5 @@ container-image-kolla-ansible:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - docker

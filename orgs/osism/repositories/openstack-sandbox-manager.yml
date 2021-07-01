@@ -1,9 +1,9 @@
 ---
 openstack-sandbox-manager:
   default_branch: master
-  description: With this script it is possible to manage sandbox environments on an OpenStack cloud environment
+  description: Script to manage sandbox projects on OpenStack
   homepage: https://www.osism.tech
-  language: PYTHON
+  language: python
   archived: false
   has_issues: true
   has_projects: false

@@ -3,7 +3,7 @@ issues:
   default_branch: master
   description: This repository is used for issues that are cross-repository or not bound to a specific repository
   homepage: https://www.osism.tech
-  language: MARKDOWN
+  language:
   archived: false
   has_issues: true
   has_projects: false

@@ -1,9 +1,9 @@
 ---
 openstack-octavia-amphora-image:
   default_branch: master
-  description: OpenStack Octavia Amphora Image
+  description: Machine images for use with the OpenStack Octavia service
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false

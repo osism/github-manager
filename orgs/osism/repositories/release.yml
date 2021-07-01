@@ -3,7 +3,7 @@ release:
   default_branch: master
   description: OSISM release details
   homepage: https://www.osism.tech
-  language: YAML
+  language:
   archived: false
   has_issues: true
   has_projects: false

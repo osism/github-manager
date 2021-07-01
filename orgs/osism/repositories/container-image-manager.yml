@@ -3,7 +3,7 @@ container-image-managr:
   default_branch: master
   description: Container image which contains the manager of OSISM
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,5 @@ container-image-managr:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - docker

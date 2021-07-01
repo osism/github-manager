@@ -1,9 +1,9 @@
 ---
 dotfiles:
   default_branch: master
-  description: TBD
+  description: Dotfiles
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false

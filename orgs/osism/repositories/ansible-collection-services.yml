@@ -1,9 +1,9 @@
 ---
 ansible-collection-services:
   default_branch: master
-  description: TBD
+  description: Ansible collection with service roles
   homepage: https://www.osism.tech
-  language: YAML
+  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,6 @@ ansible-collection-services:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - ansible
+    - ansible-collection

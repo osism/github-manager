@@ -1,14 +1,14 @@
 ---
 ansible-playbooks-enterprise:
   default_branch: master
-  description: TBD
+  description: Ansible playbooks for the enterprise edition
   homepage: https://www.osism.tech
-  language: YAML
+  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: false
+  private: true
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
@@ -26,4 +26,5 @@ ansible-playbooks-enterprise:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - ansible

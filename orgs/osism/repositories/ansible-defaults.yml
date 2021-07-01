@@ -3,7 +3,7 @@ ansible-defaults:
   default_branch: main
   description: All Ansible defaults for the individual Ansible container images are stored in this repository
   homepage: https://www.osism.tech
-  language: YAML
+  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,5 @@ ansible-defaults:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - ansible

@@ -1,9 +1,9 @@
 ---
 container-image-heimdall:
   default_branch: main
-  description: TBD
+  description: Container image which contains Heimdall
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,5 @@ container-image-heimdall:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - docker

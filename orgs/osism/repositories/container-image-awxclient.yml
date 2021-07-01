@@ -3,7 +3,7 @@ container-image-awxclient:
   default_branch: main
   description: Container image with a client for AWX
   homepage: https://www.osism.tech
-  language: SHELL
+  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,5 @@ container-image-awxclient:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - docker

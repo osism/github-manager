@@ -26,3 +26,4 @@ scripts:
     push:
     admin:
   protection_rules: []
+  topics: []

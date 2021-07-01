@@ -3,7 +3,7 @@ website:
   default_branch: main
   description: OSISM website
   homepage: https://www.osism.tech
-  language: YAML
+  language: HTML
   archived: false
   has_issues: true
   has_projects: false

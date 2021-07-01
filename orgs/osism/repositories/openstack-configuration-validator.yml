@@ -3,12 +3,12 @@ openstack-configuration-validator:
   default_branch: main
   description: Validator based on the CUE open-source data validation language for OpenStack configuration files
   homepage: https://www.osism.tech
-  language: PYTHON
+  language: python
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: false
+  private: true
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true

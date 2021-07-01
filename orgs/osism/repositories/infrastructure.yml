@@ -3,12 +3,12 @@ infrastructure:
   default_branch: main
   description: Infrastructure services of OSISM GmbH
   homepage: https://www.osism.tech
-  language: YAML
+  language:
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: false
+  private: true
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
