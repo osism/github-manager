@@ -26,4 +26,5 @@ tosca-in-a-nutshell:
     push:
     admin:
   protection_rules: []
-  topics: []
+  topics:
+    - tosca
