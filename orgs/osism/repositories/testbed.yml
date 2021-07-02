@@ -2,7 +2,7 @@
 testbed:
   default_branch: master
   description: With this testbed, it is possible to run a full OSISM installation, the baseline of the Sovereign Cloud Stack, on an existing OpenStack environment such as City Cloud or Open Telekom Cloud.
-  homepage: https://docs.osism.de/testbed
+  homepage: https://docs.osism.tech/testbed
   language: Ansible
   archived: false
   has_issues: true
