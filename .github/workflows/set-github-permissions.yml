@@ -1,0 +1,34 @@
+---
+name: Set GitHub permissions
+
+"on":
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  set-github-permissions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+        submodules: true
+
+      - name: setup python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: install dependencies
+        run: |
+          python3 -m pip install --use-feature=2020-resolver --upgrade pip
+          python3 -m pip install --use-feature=2020-resolver ansible~=2.10.0
+
+      - name: set github permissions
+        run: ansible-playbook playbooks/run.yml -e github_repos_state=present
+        working-directory: ./gitstyring
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.GITHUB_USER }}
+          GITSTYRING_ROOT_DIR: "../../orgs"
