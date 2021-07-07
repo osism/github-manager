@@ -5,10 +5,14 @@ teams:
     visibility: secret
     parent:
     maintainer:
+      - berendt
     member:
+      - tibeer
+      - muellerbe
   admin:
     description: Admins
     visibility: secret
     parent:
     maintainer:
+      - berendt
     member:
