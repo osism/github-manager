@@ -1,7 +1,7 @@
 ---
-openstack-ironic-images:
+openstack-ironic-ipa-images:
   default_branch: main
-  description: Machine images for use with the OpenStack Ironic service
+  description: IPA images for use with the OpenStack Ironic service
   homepage: https://www.osism.tech
   language:
   archived: false
