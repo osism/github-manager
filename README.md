@@ -2,7 +2,7 @@
 
 This repository manages the GitHub permissions for the OSISM organization.
 
-Based on https://github.com/opentelekomcloud-infra/gitstyring.
+Based on https://github.com/opentelekomcloud/ansible-collection-gitcontrol
 
 ## Usage
 
@@ -10,6 +10,6 @@ Based on https://github.com/opentelekomcloud-infra/gitstyring.
 export GITHUB_TOKEN="<github-token>"
 export GITHUB_USER="<github-username>"
 export GITSTYRING_ROOT_DIR="../../orgs"
-cd gitstyring
+cd ansible-collection-gitcontrol
 ansible-playbook playbooks/run.yml -e github_repos_state=present
 ```
