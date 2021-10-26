@@ -27,3 +27,4 @@ openstack-configuration-validator:
     admin:
   protection_rules: []
   topics: []
+
