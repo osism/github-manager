@@ -4,7 +4,7 @@ container-image-heimdall:
   description: Container image which contains Heimdall
   homepage: https://www.osism.tech
   language:
-  archived: false
+  archived: true # FIX ME
   has_issues: true
   has_projects: false
   has_wiki: false

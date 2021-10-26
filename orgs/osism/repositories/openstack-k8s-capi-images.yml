@@ -1,14 +1,14 @@
 ---
-openstack-in-a-nutshell:
+openstack-k8s-capi-images:
   default_branch: main
-  description: OpenStack in a nutshell
+  description: Images intended for use with Kubernetes CAPI providers # FIX ME
   homepage: https://www.osism.tech
-  language:
+  language: Python # FIX ME
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
@@ -26,5 +26,6 @@ openstack-in-a-nutshell:
     push:
     admin:
   protection_rules: []
-  topics:
-    - openstack
+  topics: # FIX ME
+    - kubernetes
+    - capi

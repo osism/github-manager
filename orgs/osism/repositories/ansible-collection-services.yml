@@ -1,6 +1,6 @@
 ---
 ansible-collection-services:
-  default_branch: master
+  default_branch: main
   description: Ansible collection with service roles
   homepage: https://www.osism.tech
   language: Ansible

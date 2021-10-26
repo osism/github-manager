@@ -1,6 +1,6 @@
 ---
 container-images-kolla:
-  default_branch: master
+  default_branch: main
   description: Build environment for creating OpenStack container images
   homepage: https://www.osism.tech
   language:

@@ -1,9 +1,9 @@
 ---
 release:
-  default_branch: master
+  default_branch: main
   description: OSISM release details
   homepage: https://www.osism.tech
-  language:
+  language: Python # FIX ME
   archived: false
   has_issues: true
   has_projects: false

@@ -1,6 +1,6 @@
 ---
 ansible-playbooks:
-  default_branch: master
+  default_branch: main
   description: Ansible playbooks
   homepage: https://www.osism.tech
   language: Ansible

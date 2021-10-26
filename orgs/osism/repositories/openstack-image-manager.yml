@@ -1,9 +1,9 @@
 ---
-testbed:
+openstack-image-manager:
   default_branch: main
-  description: With this testbed, it is possible to run a full OSISM installation, the baseline of the Sovereign Cloud Stack, on an existing OpenStack environment such as City Cloud or Open Telekom Cloud.
-  homepage: https://docs.osism.tech/testbed
-  language: Ansible
+  description: # FIX ME
+  homepage: https://www.osism.tech
+  language: Python # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -26,9 +26,4 @@ testbed:
     push:
     admin:
   protection_rules: []
-  topics:
-    - ansible
-    - ceph
-    - kubernetes
-    - openstack
-    - terraform
+  topics: []

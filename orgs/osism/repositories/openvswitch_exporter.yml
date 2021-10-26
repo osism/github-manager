@@ -1,14 +1,14 @@
 ---
-baremetal-images:
-  default_branch: master
-  description: This repository is used to manage build recipes for creating images for use on baremetal systems.
+openvswitch_exporter:
+  default_branch: main
+  description: Command openvswitch_exporter implements a Prometheus exporter for Open vSwitch # FIX ME
   homepage: https://www.osism.tech
-  language:
+  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
