@@ -19,3 +19,4 @@
       opentelekomcloud.gitcontrol.repositories:
         root: "{{ gitstyring_root_dir }}"
         token: "{{ github_token }}"
+      no_log: true

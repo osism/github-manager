@@ -1,0 +1,37 @@
+---
+name: Set permissions
+
+"on":
+  push:
+    workflow_dispatch:
+    branches:
+      - main
+
+jobs:
+  set-github-permissions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --use-feature=2020-resolver --upgrade pip
+          python3 -m pip install --use-feature=2020-resolver ansible requests
+
+      - name: Install ansible collection
+        run: |
+          ansible-galaxy collection install ansible-collection-gitcontrol
+
+      - name: Set permissions
+        run: |
+          ansible-playbook run.yaml -e github_token=$GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHP }}
