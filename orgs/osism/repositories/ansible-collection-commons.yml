@@ -1,6 +1,6 @@
 ---
 ansible-collection-commons:
-  default_branch: master
+  default_branch: main
   description: Ansible collection with common roles
   homepage: https://www.osism.tech
   language: Ansible

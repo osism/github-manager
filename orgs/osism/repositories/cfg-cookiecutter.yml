@@ -1,6 +1,6 @@
 ---
 cfg-cookiecutter:
-  default_branch: master
+  default_branch: main
   description: Cookiecutter template for an OSISM configuration repository
   homepage: https://www.osism.tech
   language: Ansible

@@ -1,14 +1,14 @@
 ---
-container-image-uyuni:
+helm-charts:
   default_branch: main
-  description:
+  description: # FIX ME
   homepage: https://www.osism.tech
-  language:
+  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
@@ -26,5 +26,4 @@ container-image-uyuni:
     push:
     admin:
   protection_rules: []
-  topics:
-    - docker
+  topics: []

@@ -1,6 +1,6 @@
 ---
 dotfiles:
-  default_branch: master
+  default_branch: main
   description: Dotfiles
   homepage: https://www.osism.tech
   language:

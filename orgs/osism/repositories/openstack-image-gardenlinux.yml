@@ -1,14 +1,14 @@
 ---
-ansible-collection-enterprise:
-  default_branch: master
-  description: Ansible collection with roles for the enterprise edition
+openstack-image-gardenlinux:
+  default_branch: main
+  description: # FIX ME
   homepage: https://www.osism.tech
-  language: Ansible
+  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
@@ -26,6 +26,4 @@ ansible-collection-enterprise:
     push:
     admin:
   protection_rules: []
-  topics:
-    - ansible
-    - ansible-collection
+  topics: []

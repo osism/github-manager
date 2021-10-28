@@ -1,14 +1,14 @@
 ---
-appliance:
+sosreport-plugin-osism:
   default_branch: main
-  description: OSISM appliance
+  description: # FIX ME
   homepage: https://www.osism.tech
-  language:
+  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true

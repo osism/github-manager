@@ -4,7 +4,7 @@ website:
   description: OSISM website
   homepage: https://www.osism.tech
   language: HTML
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

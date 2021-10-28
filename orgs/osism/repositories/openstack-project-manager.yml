@@ -1,6 +1,6 @@
 ---
 openstack-project-manager:
-  default_branch: master
+  default_branch: main
   description: Script to manage projects on OpenStack
   homepage: https://www.osism.tech
   language: python
