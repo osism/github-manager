@@ -7,7 +7,7 @@ name: Update gitcontrol submodule
     paths:
       - .github/workflows/update-gitcontrol-submodule.yml
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 8 * * *"
   repository_dispatch:
     types:
       - update-gitcontrol-submodule
