@@ -1,9 +1,8 @@
 ---
 container-image-tang:
   default_branch: main
-  description: # FIX ME
+  description: Container image which provides the tangd service
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ container-image-tang:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

@@ -1,10 +1,9 @@
 ---
-website:
+sos-plugin-osism:
   default_branch: main
-  description: OSISM website
+  description: SoS plugin for OSISM
   homepage: https://www.osism.tech
-  language: HTML
-  archived: true
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -25,5 +24,5 @@ website:
     pull:
     push:
     admin:
-  protection_rules: []
-  topics: []
+  topics:
+    - python

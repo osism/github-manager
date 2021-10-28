@@ -1,10 +1,9 @@
 ---
-container-image-manager:
-  default_branch: main # FIX ME In the repo the default branch is still master
-  description: Container image which contains the manager of OSISM
+manager-installer:
+  default_branch: main
+  description: ISO image to bootstrap a new manager node
   homepage: https://www.osism.tech
-  language:
-  archived: true
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -25,6 +24,4 @@ container-image-manager:
     pull:
     push:
     admin:
-  protection_rules: []
-  topics:
-    - docker
+  topics: []

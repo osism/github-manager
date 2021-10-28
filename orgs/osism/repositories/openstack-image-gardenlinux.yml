@@ -1,9 +1,8 @@
 ---
 openstack-image-gardenlinux:
   default_branch: main
-  description: # FIX ME
+  description: Machine images for use with the Gardener service
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-image-gardenlinux:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

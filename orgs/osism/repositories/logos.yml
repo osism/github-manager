@@ -1,9 +1,8 @@
 ---
 logos:
   default_branch: main
-  description: # FIX ME
+  description: Logos
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ logos:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

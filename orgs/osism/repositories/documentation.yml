@@ -3,7 +3,6 @@ documentation:
   default_branch: main
   description: OSISM documentation
   homepage: https://docs.osism.tech
-  language: Sphinx
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ documentation:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - documentation
     - sphinx

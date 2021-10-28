@@ -1,9 +1,8 @@
 ---
 gardener-preparation:
   default_branch: main
-  description: The repository can be used to prepare a new OpenStack environment for use by Gardener # FIX ME
+  description: The repository can be used to prepare a new OpenStack environment for use by Gardener
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ gardener-preparation:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

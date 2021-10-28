@@ -3,7 +3,6 @@ kolla-operations:
   default_branch: main
   description: Repository for Grafana/Kibana dashboards and Prometheus alerting rules
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ kolla-operations:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

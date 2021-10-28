@@ -3,7 +3,6 @@ container-image-jenkins:
   default_branch: main
   description: Container image with Jenkins + plugins
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-jenkins:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

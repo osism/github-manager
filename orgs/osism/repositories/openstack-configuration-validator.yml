@@ -3,7 +3,6 @@ openstack-configuration-validator:
   default_branch: main
   description: Validator based on the CUE open-source data validation language for OpenStack configuration files
   homepage: https://www.osism.tech
-  language: python
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-configuration-validator:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

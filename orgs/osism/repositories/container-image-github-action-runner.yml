@@ -1,9 +1,8 @@
 ---
 container-image-github-action-runner:
   default_branch: main
-  description: # FIX ME
+  description: Container image used as the base for our self-hosted GitHub Actions runners
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-github-action-runner:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

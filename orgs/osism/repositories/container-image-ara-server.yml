@@ -3,7 +3,6 @@ container-image-ara-server:
   default_branch: main
   description: Container image which provides "ARA Records Ansible"
   homepage: https://ara.recordsansible.org/
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-ara-server:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

@@ -1,9 +1,8 @@
 ---
 container-image-homer:
   default_branch: main
-  description: # FIX ME
+  description: ontainer image which provides "ARA Records Ansible"
   homepage: https://www.osism.tech
-  language: Shell # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ container-image-homer:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

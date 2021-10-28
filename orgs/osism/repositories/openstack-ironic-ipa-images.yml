@@ -3,7 +3,6 @@ openstack-ironic-ipa-images:
   default_branch: main
   description: IPA images for use with the OpenStack Ironic service
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ openstack-ironic-ipa-images:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - openstack
     - ironic

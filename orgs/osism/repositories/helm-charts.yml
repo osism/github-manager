@@ -1,9 +1,8 @@
 ---
 helm-charts:
   default_branch: main
-  description: # FIX ME
+  description: Helm charts
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ helm-charts:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

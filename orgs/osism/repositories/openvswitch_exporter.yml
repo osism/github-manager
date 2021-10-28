@@ -1,9 +1,8 @@
 ---
 openvswitch_exporter:
   default_branch: main
-  description: Command openvswitch_exporter implements a Prometheus exporter for Open vSwitch # FIX ME
+  description: Command openvswitch_exporter implements a Prometheus exporter for Open vSwitch
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openvswitch_exporter:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

@@ -3,7 +3,6 @@ cfg-generics:
   default_branch: main
   description: Configuration files which are standardized in all configuration repositories
   homepage: https://www.osism.tech
-  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ cfg-generics:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - ansible

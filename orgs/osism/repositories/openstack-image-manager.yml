@@ -1,9 +1,8 @@
 ---
 openstack-image-manager:
   default_branch: main
-  description: # FIX ME
+  description: Easily manage and keep up to date a large number of images on an OpenStack environment
   homepage: https://www.osism.tech
-  language: Python # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-image-manager:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

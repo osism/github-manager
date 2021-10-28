@@ -3,7 +3,6 @@ openstack-trove-images:
   default_branch: main
   description: Machine images for use with the OpenStack Trove service
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-trove-images:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

@@ -3,7 +3,6 @@ container-image-openstackclient:
   default_branch: main
   description: Container image with a client for OpenStack
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-openstackclient:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

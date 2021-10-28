@@ -3,7 +3,6 @@ ansible-collection-services:
   default_branch: main
   description: Ansible collection with service roles
   homepage: https://www.osism.tech
-  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ ansible-collection-services:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - ansible
     - ansible-collection

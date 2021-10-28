@@ -1,9 +1,8 @@
 ---
 gardener-dashboard:
   default_branch: main
-  description: # FIX ME
+  description: OpenStack dashboard plugin for Gardener
   homepage: https://www.osism.tech
-  language: # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ gardener-dashboard:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

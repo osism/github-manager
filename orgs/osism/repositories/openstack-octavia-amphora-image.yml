@@ -3,7 +3,6 @@ openstack-octavia-amphora-image:
   default_branch: main
   description: Machine images for use with the OpenStack Octavia service
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-octavia-amphora-image:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

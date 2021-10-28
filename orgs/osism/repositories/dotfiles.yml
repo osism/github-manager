@@ -3,7 +3,6 @@ dotfiles:
   default_branch: main
   description: Dotfiles
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ dotfiles:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

@@ -3,7 +3,6 @@ container-image-manager-runner:
   default_branch: main
   description:
   homepage: https://www.osism.tech
-  language: SHELL
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-manager-runner:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

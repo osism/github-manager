@@ -3,7 +3,6 @@ scripts:
   default_branch: main
   description: Scripts that support the development processes
   homepage: https://www.osism.tech
-  language: Shell
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ scripts:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

@@ -3,7 +3,6 @@ awesome-tosca:
   default_branch: main
   description: A curated list of awesome TOSCA resources
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ awesome-tosca:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - awesome
     - lists

@@ -3,7 +3,6 @@ container-image-cephclient:
   default_branch: main
   description: Container image with a client for Ceph
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-cephclient:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker

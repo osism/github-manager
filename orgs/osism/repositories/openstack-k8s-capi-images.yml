@@ -1,9 +1,8 @@
 ---
 openstack-k8s-capi-images:
   default_branch: main
-  description: Images intended for use with Kubernetes CAPI providers # FIX ME
+  description: Images intended for use with Kubernetes CAPI providers
   homepage: https://www.osism.tech
-  language: Python # FIX ME
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ openstack-k8s-capi-images:
     pull:
     push:
     admin:
-  protection_rules: []
-  topics: # FIX ME
+  topics:
     - kubernetes
     - capi

@@ -3,7 +3,6 @@ cfg-cookiecutter:
   default_branch: main
   description: Cookiecutter template for an OSISM configuration repository
   homepage: https://www.osism.tech
-  language: Ansible
   archived: false
   has_issues: true
   has_projects: false
@@ -25,7 +24,6 @@ cfg-cookiecutter:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - ansible
     - cookiecutter

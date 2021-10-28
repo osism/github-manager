@@ -3,7 +3,6 @@ openstack-sandbox-manager:
   default_branch: main
   description: Script to manage sandbox projects on OpenStack
   homepage: https://www.osism.tech
-  language: python
   archived: false
   has_issues: true
   has_projects: false
@@ -25,5 +24,4 @@ openstack-sandbox-manager:
     pull:
     push:
     admin:
-  protection_rules: []
   topics: []

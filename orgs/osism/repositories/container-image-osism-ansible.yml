@@ -3,7 +3,6 @@ container-image-osism-ansible:
   default_branch: main
   description: Container image which contains OSISM specific Ansible playbooks
   homepage: https://www.osism.tech
-  language:
   archived: false
   has_issues: true
   has_projects: false
@@ -25,6 +24,5 @@ container-image-osism-ansible:
     pull:
     push:
     admin:
-  protection_rules: []
   topics:
     - docker
