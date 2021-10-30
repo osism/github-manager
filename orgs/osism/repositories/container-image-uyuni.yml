@@ -1,7 +1,7 @@
 ---
-container-image-homer:
+container-image-uyuni:
   default_branch: main
-  description: Container image which provides Homer
+  description: Container image which provides Uyuni
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
