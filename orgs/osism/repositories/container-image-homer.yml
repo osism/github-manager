@@ -24,4 +24,5 @@ container-image-homer:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - docker

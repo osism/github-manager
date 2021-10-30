@@ -24,4 +24,5 @@ container-image-tang:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - docker

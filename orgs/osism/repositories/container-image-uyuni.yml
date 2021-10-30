@@ -24,4 +24,5 @@ container-image-uyuni:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - docker
