@@ -51,3 +51,6 @@ labels:
   - name: dependencies
     description: "Pull requests that update a dependency file"
     color: "0366d6"
+  - name: security
+    description: "Has to do with security"
+    color: "fc0000"
