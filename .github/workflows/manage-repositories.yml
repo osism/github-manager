@@ -1,5 +1,5 @@
 ---
-name: Set permissions
+name: Manage github repositories
 
 "on":
   push:
@@ -8,7 +8,7 @@ name: Set permissions
       - main
 
 jobs:
-  set-github-permissions:
+  manage-github-permissions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -30,8 +30,8 @@ jobs:
         run: |
           ansible-galaxy collection install ansible-collection-gitcontrol
 
-      - name: Set permissions
+      - name: Manage github repositories
         run: |
-          ansible-playbook run.yaml -e github_token=$GITHUB_TOKEN
+          ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
         env:
           GITHUB_TOKEN: ${{ secrets.GHP }}

@@ -14,5 +14,5 @@ As a prerequisite, a PAT must be created. The rights ``repo`` and ``admin:org`` 
 
 ```sh
 export GITHUB_TOKEN="<github-token>"
-ansible-playbook run.yaml -e github_token=$GITHUB_TOKEN
+ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
 ```
