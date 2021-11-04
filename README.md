@@ -5,6 +5,8 @@ This repository manages the GitHub repositories for the OSISM organization.
 ## Installation
 
 ```sh
+pipenv install
+pipenv shell
 ansible-galaxy collection install ansible-collection-gitcontrol
 ```
 

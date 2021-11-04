@@ -24,14 +24,21 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --use-feature=2020-resolver --upgrade pip
-          python3 -m pip install --use-feature=2020-resolver ansible requests
+          python3 -m pip install --use-feature=2020-resolver pipenv wheel
+          pipenv install
 
       - name: Install ansible collection
         run: |
           ansible-galaxy collection install ansible-collection-gitcontrol
 
-      - name: Manage github repositories
+      - name: Manage github repositories with Ansible
         run: |
-          ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
+          pipenv run ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHP }}
+
+      - name: Manage github repositories with Python
+        run: |
+          pipenv run python3 manage.py
         env:
           GITHUB_TOKEN: ${{ secrets.GHP }}
