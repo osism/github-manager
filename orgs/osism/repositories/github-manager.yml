@@ -1,7 +1,7 @@
 ---
-github-permissions:
+github-manager:
   default_branch: main
-  description: GitHub permissions management for the OSISM organisation through Ansible
+  description: GitHub repository management through Ansible & Python
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
@@ -27,3 +27,4 @@ github-permissions:
   topics:
     - ansible
     - github
+    - python

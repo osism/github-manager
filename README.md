@@ -1,6 +1,6 @@
-# GitHub permissions management through Ansible
+# GitHub repository management through Ansible & Python
 
-This repository manages the GitHub permissions for the OSISM organization.
+This repository manages the GitHub repositories for the OSISM organization.
 
 ## Installation
 
