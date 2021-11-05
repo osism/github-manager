@@ -1,5 +1,5 @@
 ---
-openstack-k8s-capi-images:
+k8s-capi-images:
   default_branch: main
   description: Images intended for use with Kubernetes CAPI providers
   homepage: https://www.osism.tech
