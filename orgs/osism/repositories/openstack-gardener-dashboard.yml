@@ -1,7 +1,7 @@
 ---
-gardener-integration:
+openstack-gardener-dashboard:
   default_branch: main
-  description: The repository can be used to integrate a new OpenStack environment with Gardener
+  description: OpenStack dashboard plugin for Gardener
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
