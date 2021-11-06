@@ -1,5 +1,5 @@
 ---
-gardener-preparation:
+openstack-gardener-preparation:
   default_branch: main
   description: The repository can be used to prepare a new OpenStack environment for use by Gardener
   homepage: https://www.osism.tech
