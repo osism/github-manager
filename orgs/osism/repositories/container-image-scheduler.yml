@@ -1,7 +1,7 @@
 ---
 container-image-scheduler:
   default_branch: main
-  description:
+  description: OSISM scheduler service
   homepage: https://www.osism.tech
   archived: false
   has_issues: true

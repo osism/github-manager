@@ -1,7 +1,7 @@
 ---
 container-image-inventory-reconciler:
   default_branch: main
-  description:
+  description: OSISM inventory reconciler service
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
