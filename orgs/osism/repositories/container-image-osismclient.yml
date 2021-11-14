@@ -1,7 +1,7 @@
 ---
-python-osism:
+container-image-osismclient:
   default_branch: main
-  description: OSISM client, api, scheduler, and worker services
+  description: Container image with a client for OSISM
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
@@ -25,4 +25,4 @@ python-osism:
     push:
     admin:
   topics:
-    - python
+    - docker
