@@ -3,7 +3,7 @@ container-image-manager-runner:
   default_branch: main
   description:
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
