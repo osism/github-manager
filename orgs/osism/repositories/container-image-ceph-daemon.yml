@@ -3,7 +3,7 @@ container-image-ceph-daemon:
   default_branch: main
   description: Container image to run Ceph in containers
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
