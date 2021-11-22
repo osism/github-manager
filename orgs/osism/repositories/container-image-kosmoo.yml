@@ -3,7 +3,7 @@ container-image-kosmoo:
   default_branch: main
   description: Container image which provides "Kosmoo"
   homepage: https://github.com/daimler/kosmoo
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
