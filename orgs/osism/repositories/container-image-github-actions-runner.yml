@@ -3,7 +3,7 @@ container-image-github-actions-runner:
   default_branch: main
   description: Container image which provides a runner for our GitHub Actions
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
