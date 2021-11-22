@@ -3,7 +3,7 @@ container-image-tang:
   default_branch: main
   description: Container image which provides the tangd service
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
