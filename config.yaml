@@ -54,3 +54,6 @@ labels:
   - name: security
     description: "Has to do with security"
     color: "fc0000"
+  - name: work in progress
+    description: "Pull requests that are work in progress, do not merge them"
+    color: "c5def5"
