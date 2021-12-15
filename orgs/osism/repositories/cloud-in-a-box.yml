@@ -1,7 +1,7 @@
 ---
-gaia-x-hackathon-2021:
+cloud-in-a-box:
   default_branch: main
-  description: Gaia-X Hackathon 2021
+  description: Cloud in a box
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
