@@ -26,4 +26,4 @@ openstack-ironic-ipa-images:
     admin:
   topics:
     - openstack
-    - ironic
+    - opentack-ironic

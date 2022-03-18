@@ -24,4 +24,6 @@ openstack-image-manager:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - openstack-glance

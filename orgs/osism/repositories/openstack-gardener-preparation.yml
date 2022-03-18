@@ -24,4 +24,5 @@ openstack-gardener-preparation:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack

@@ -24,4 +24,5 @@ openstack-configuration-validator:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack

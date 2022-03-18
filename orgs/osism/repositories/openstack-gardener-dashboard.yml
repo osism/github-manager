@@ -24,4 +24,5 @@ openstack-gardener-dashboard:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack

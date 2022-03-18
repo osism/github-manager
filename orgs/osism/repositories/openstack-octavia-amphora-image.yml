@@ -24,4 +24,6 @@ openstack-octavia-amphora-image:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - openstack-octavia

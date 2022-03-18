@@ -26,4 +26,4 @@ openstack-policies:
     admin:
   topics:
     - openstack
-    - keystone
+    - openstack-keystone

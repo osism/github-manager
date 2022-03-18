@@ -25,4 +25,5 @@ container-image-osism-ansible:
     push:
     admin:
   topics:
+    - ansible
     - docker

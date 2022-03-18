@@ -26,4 +26,4 @@ openstack-networking-osism:
     admin:
   topics:
     - openstack
-    - neutron
+    - openstack-neutron

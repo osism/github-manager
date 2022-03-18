@@ -24,4 +24,6 @@ openstack-trove-images:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - openstack-trove

@@ -24,4 +24,6 @@ openstack-manila-images:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - openstack-manila

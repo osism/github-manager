@@ -24,4 +24,7 @@ openstack-image-gardenlinux:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - gardener
+    - gardenlinux
+    - openstack

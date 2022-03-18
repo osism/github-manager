@@ -26,3 +26,6 @@ container-images-kolla:
     admin:
   topics:
     - docker
+    - kolla
+    - openstack
+    - openstack-kolla

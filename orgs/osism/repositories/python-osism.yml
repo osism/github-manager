@@ -25,4 +25,6 @@ python-osism:
     push:
     admin:
   topics:
+    - netbox
+    - openstack
     - python

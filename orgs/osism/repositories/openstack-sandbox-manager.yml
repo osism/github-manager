@@ -24,4 +24,6 @@ openstack-sandbox-manager:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - python

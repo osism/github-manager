@@ -24,4 +24,6 @@ kolla-operations:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - openstack-kolla

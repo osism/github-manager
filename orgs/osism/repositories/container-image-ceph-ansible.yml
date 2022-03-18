@@ -25,4 +25,6 @@ container-image-ceph-ansible:
     push:
     admin:
   topics:
+    - ansible
+    - ceph
     - docker

@@ -25,5 +25,6 @@ k8s-capi-images:
     push:
     admin:
   topics:
-    - kubernetes
     - capi
+    - kubernetes
+    - openstack

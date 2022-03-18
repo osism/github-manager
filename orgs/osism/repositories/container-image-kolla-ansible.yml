@@ -25,4 +25,7 @@ container-image-kolla-ansible:
     push:
     admin:
   topics:
+    - ansible
     - docker
+    - openstack
+    - openstack-kolla

@@ -24,4 +24,6 @@ openstack-project-manager:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - openstack
+    - python
