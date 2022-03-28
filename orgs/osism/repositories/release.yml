@@ -2,7 +2,7 @@
 release:
   default_branch: main
   description: OSISM release details
-  homepage: https://www.osism.tech
+  homepage: https://release.osism.tech
   archived: false
   has_issues: true
   has_projects: false
