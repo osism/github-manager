@@ -1,8 +1,8 @@
 ---
 osism-zuul-jobs:
   default_branch: main
-  description: OSISM generic jobs for zuul
-  homepage: http://zuul01.osism.xyz:9000
+  description: Zuul Jobs for OSISM wide usage
+  homepage: https://zuul.osism.xyz/tenants
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,3 @@ osism-zuul-jobs:
     admin:
   topics:
     - zuul
-    - zuul-ci
