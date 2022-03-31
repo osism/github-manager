@@ -1,5 +1,5 @@
 ---
-zuul_jobs:
+osism-zuul-jobs:
   default_branch: main
   description: OSISM generic jobs for zuul
   homepage: http://zuul01.osism.xyz:9000
