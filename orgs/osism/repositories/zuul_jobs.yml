@@ -1,0 +1,29 @@
+---
+zuul_jobs:
+  default_branch: main
+  description: OSISM generic jobs for zuul
+  homepage: http://zuul01.osism.xyz:9000
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  topics:
+    - zuul
+    - zuul-ci
