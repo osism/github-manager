@@ -19,6 +19,11 @@ export GITHUB_TOKEN="<github-token>"
 ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
 ```
 
+## Limitiations
+
+It is not possible to add already created, but still empty, repositories here. Before this is possible,
+at least one commit must have been made on the main branch.
+
 ## Github Actions
 
 For the Github Action workflows a repository secret ``GHP`` is provided. This had only a short
