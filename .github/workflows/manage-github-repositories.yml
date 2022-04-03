@@ -8,7 +8,7 @@ name: Manage github repositories
       - main
 
 jobs:
-  manage-github-permissions:
+  manage-github-repositories:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
