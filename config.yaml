@@ -3,6 +3,9 @@ current_milestone: 'v3.0.0'
 next_milestone: 'v4.0.0'
 
 labels:
+  - name: needs rework
+    description: "Needs rework"
+    color: "b60205"
   - name: bug
     description: "Something isn't working"
     color: "d73a4a"
