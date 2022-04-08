@@ -2,8 +2,8 @@
 name: Manage github repositories
 
 "on":
+  workflow_dispatch:
   push:
-    workflow_dispatch:
     branches:
       - main
 
