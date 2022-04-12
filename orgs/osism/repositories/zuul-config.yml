@@ -1,5 +1,5 @@
 ---
-zuul_config:
+zuul-config:
   default_branch: main
   description: Zuul config
   homepage: https://zuul.osism.xyz/tenants
@@ -7,7 +7,7 @@ zuul_config:
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: true
+  private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true

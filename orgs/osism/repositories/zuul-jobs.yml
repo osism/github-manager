@@ -1,5 +1,5 @@
 ---
-zuul_jobs:
+zuul-jobs:
   default_branch: main
   description: Zuul jobs
   homepage: https://zuul.osism.xyz/tenants
