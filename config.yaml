@@ -63,3 +63,6 @@ labels:
   - name: work in progress
     description: "Pull requests that are work in progress, do not merge them"
     color: "c5def5"
+  - name: refactoring
+    description: "Improving something without adding new or changing existing functionality"
+    color: "b9e1c3"
