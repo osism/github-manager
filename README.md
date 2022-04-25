@@ -21,8 +21,9 @@ ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
 
 ## Limitiations
 
-It is not possible to add already created, but still empty, repositories here. Before this is possible,
+* It is not possible to add already created, but still empty, repositories here. Before this is possible,
 at least one commit must have been made on the main branch.
+* Only the owner of the organization should currently merge pull requests. The token in the github action would not work if someone else triggers it. 
 
 ## Github Actions
 
@@ -30,7 +31,7 @@ For the Github Action workflows a repository secret ``GHP`` is provided. This ha
 validity and must be renewed regularly.
 
 If the following error in the logs comes from ``Manage github repositories``x the token has
-expired and must be renewed.
+expired and must be renewed OR someone different than the owner merged a pull request.
 
 ```
 Run pipenv run ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
