@@ -25,3 +25,4 @@ mappings:
     push:
     admin:
   topics: []
+  protection_rules: default

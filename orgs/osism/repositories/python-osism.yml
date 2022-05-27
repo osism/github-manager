@@ -28,3 +28,4 @@ python-osism:
     - netbox
     - openstack
     - python
+  protection_rules: default

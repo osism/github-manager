@@ -27,3 +27,4 @@ ansible-collection-validations:
   topics:
     - ansible
     - ansible-collection
+  protection_rules: default

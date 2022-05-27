@@ -26,3 +26,4 @@ ansible-defaults:
     admin:
   topics:
     - ansible
+  protection_rules: default

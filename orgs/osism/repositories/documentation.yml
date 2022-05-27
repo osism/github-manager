@@ -27,3 +27,4 @@ documentation:
   topics:
     - documentation
     - sphinx
+  protection_rules: default

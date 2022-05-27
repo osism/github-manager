@@ -26,3 +26,4 @@ zuul-config:
     admin:
   topics:
     - zuul
+  protection_rules: default

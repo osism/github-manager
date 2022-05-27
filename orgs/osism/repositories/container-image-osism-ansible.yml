@@ -27,3 +27,4 @@ container-image-osism-ansible:
   topics:
     - ansible
     - docker
+  protection_rules: default
