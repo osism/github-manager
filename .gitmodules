@@ -1,3 +1,4 @@
 [submodule "ansible-collection-gitcontrol"]
 	path = ansible-collection-gitcontrol
-	url = https://github.com/opentelekomcloud/ansible-collection-gitcontrol
+	url = https://github.com/osfrickler/ansible-collection-gitcontrol
+	branch = bp

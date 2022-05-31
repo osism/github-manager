@@ -30,3 +30,4 @@ testbed:
     - kubernetes
     - openstack
     - terraform
+  protection_rules: default

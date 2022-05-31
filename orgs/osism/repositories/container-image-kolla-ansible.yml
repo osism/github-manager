@@ -29,3 +29,4 @@ container-image-kolla-ansible:
     - docker
     - openstack
     - openstack-kolla
+  protection_rules: default

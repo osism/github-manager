@@ -28,3 +28,4 @@ container-image-ceph-ansible:
     - ansible
     - ceph
     - docker
+  protection_rules: default

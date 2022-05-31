@@ -27,3 +27,4 @@ ansible-collection-services:
   topics:
     - ansible
     - ansible-collection
+  protection_rules: default

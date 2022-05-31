@@ -26,3 +26,4 @@ container-image-inventory-reconciler:
     admin:
   topics:
     - docker
+  protection_rules: default

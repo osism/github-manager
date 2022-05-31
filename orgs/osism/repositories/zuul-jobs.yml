@@ -26,3 +26,4 @@ zuul-jobs:
     admin:
   topics:
     - zuul
+  protection_rules: default

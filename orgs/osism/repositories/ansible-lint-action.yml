@@ -28,3 +28,4 @@ ansible-lint-action:
     - ansible
     - ansible-lint
     - github-action
+  protection_rules: default
