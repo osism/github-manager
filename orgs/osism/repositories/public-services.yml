@@ -24,4 +24,5 @@ public-services:
     pull:
     push:
     admin:
+      - tibeer
   topics: []
