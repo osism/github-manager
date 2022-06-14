@@ -1,0 +1,28 @@
+---
+openstack-nannies:
+  default_branch: main
+  description: Various scripts to repair recurring problems in an OpenStack environment.
+  homepage: https://www.osism.tech
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  topics: []
+  protection_rules: default
