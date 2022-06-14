@@ -5,6 +5,9 @@ next_milestone: 'v4.0.0'
 labels:
   - name: needs rework
     description: "Needs rework"
+    documentation: |
+      An issue has only been opened as a placeholder or is filled with too
+      little content and needs more content before it can go into processing.
     color: "b60205"
   - name: bug
     description: "Something isn't working"
