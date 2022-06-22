@@ -26,5 +26,6 @@ k8s-capi-images:
     admin:
   topics:
     - capi
+    - cluster-api
     - kubernetes
     - openstack
