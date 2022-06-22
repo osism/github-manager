@@ -26,5 +26,6 @@ k8s-capi-management-cluster:
     admin:
   topics:
     - capi
+    - cluster-api
     - kubernetes
     - openstack
