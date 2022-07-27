@@ -25,4 +25,4 @@ netbox-plugin-osism:
     push:
     admin:
   topics:
-    - tosca
+    - netbox
