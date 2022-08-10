@@ -2,7 +2,7 @@
 openstack-image-manager:
   default_branch: main
   description: Easily manage and keep up to date a large number of images on an OpenStack environment
-  homepage: https://www.osism.tech
+  homepage: https://docs.osism.tech/openstack-image-manager/
   archived: false
   has_issues: true
   has_projects: false
