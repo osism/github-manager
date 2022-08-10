@@ -2,7 +2,7 @@
 ansible-collection-commons:
   default_branch: main
   description: Ansible collection with common roles
-  homepage: https://www.osism.tech
+  homepage: https://docs.osism.tech/ansible-collection-commons/
   archived: false
   has_issues: true
   has_projects: false
