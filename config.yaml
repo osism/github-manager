@@ -1,6 +1,7 @@
 ---
-current_milestone: 'v3.0.0'
-next_milestone: 'v4.0.0'
+milestones:
+  - 'v3.0.0'
+  - 'v4.0.0'
 
 labels:
   - name: needs rework
