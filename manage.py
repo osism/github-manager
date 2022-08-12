@@ -7,7 +7,7 @@ from argparse import ArgumentParser
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-ORGANIZATION = os.environ.get("ORGANIZATION", "sovereigncloudstack")
+ORGANIZATION = os.environ.get("ORGANIZATION", "osism")
 
 gh = github.Github(login_or_token=GITHUB_TOKEN)
 
