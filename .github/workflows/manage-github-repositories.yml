@@ -19,12 +19,12 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          python3 -m pip install --use-feature=2020-resolver --upgrade pip
-          python3 -m pip install --use-feature=2020-resolver pipenv wheel
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pipenv wheel
           pipenv install
 
       - name: Install ansible collection
