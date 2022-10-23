@@ -1,7 +1,7 @@
 ---
-manager-installer:
+node-image:
   default_branch: main
-  description: ISO image to bootstrap a new manager node
+  description: ISO image to bootstrap a new OSISM node
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
