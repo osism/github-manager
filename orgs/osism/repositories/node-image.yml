@@ -24,4 +24,8 @@ node-image:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - autoinstall
+    - curtin
+    - subiquity
+    - ubuntu
