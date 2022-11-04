@@ -3,7 +3,7 @@ tosca-in-a-nutshell:
   default_branch: main
   description: TOSCA in a nutshell
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
