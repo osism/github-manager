@@ -1,0 +1,31 @@
+---
+ansible-collection-sonic:
+  default_branch: main
+  description: Ansible collection for SONiC
+  homepage: https://docs.osism.tech/ansible-collection-sonic/
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  topics:
+    - ansible
+    - ansible-collection
+    - sonic
+  protection_rules: default
