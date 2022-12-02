@@ -3,7 +3,7 @@ awesome-tosca:
   default_branch: gh-pages
   description: A curated list of awesome TOSCA resources
   homepage: https://osism.github.io/awesome-tosca
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
