@@ -1,7 +1,7 @@
 ---
 issues:
   default_branch: main
-  description: This repository is used for issues that are cross-repository or not bound to a specific repository
+  description: This repository is used for bug reports that are cross-project or not bound to a specific repository (or to an unknown repository).
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
