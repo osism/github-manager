@@ -1,0 +1,59 @@
+---
+name: Check for unmanaged repositories in organization
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '30 5 * * *'
+jobs:
+  check-unmanaged-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check token permissions
+        run: |
+          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
+            echo "No valid PAT found for ${{github.actor}}"
+            exit 1
+          else
+            echo "Found valid PAT for ${{github.actor}}"
+          fi
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pipenv wheel
+          pipenv install
+      - name: Cache pipenv
+        uses: actions/cache@v1
+        with:
+          path: ~/.local/share/virtualenvs
+          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+
+      - name: Call check_repositories.py
+        uses: mathiasvr/command-output@v1
+        id: check
+        with:
+          run: pipenv run python3 check_repositories.py
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+
+      - name: Create issue on failed workflow
+        if: ${{ failure() }}
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ github.token }}
+          title: There are unmanaged repositories
+          body: |
+            ${{ steps.check.outputs.stderr }}
