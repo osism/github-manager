@@ -77,27 +77,3 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type="public"):
             gh_label = labels[label]
             gh_label.delete()
             logging.info(f"{gh_repository.name} - {label} removed")
-
-    # handle milestones
-
-    gh_milestones = gh_repository.get_milestones(state="open")
-
-    for gh_milestone in gh_milestones:
-        if gh_milestone.title not in CONFIG["milestones"]:
-            logging.info(
-                f"{gh_repository.name} - {gh_milestone.title} should be in state 'closed'"
-            )
-            if args.dry is False:
-                gh_milestone.edit(title=gh_milestone.title, state="closed")
-
-    gh_milestone_titles = []
-    for gh_milestone in gh_milestones:
-        gh_milestone_titles.append(gh_milestone.title)
-
-    for milestone in CONFIG["milestones"]:
-        if milestone in gh_milestone_titles:
-            logging.info(f"{gh_repository.name} - milestone {milestone} does exist")
-        else:
-            logging.info(f"{gh_repository.name} - milestone {milestone} does not exist")
-            if args.dry is False:
-                gh_repository.create_milestone(title=milestone, state="open")
