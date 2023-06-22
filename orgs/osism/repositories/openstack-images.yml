@@ -1,0 +1,29 @@
+---
+openstack-images:
+  default_branch: main
+  description: Image definition files for the OpenStack Image Manager
+  homepage: https://docs.scs.community/docs/category/openstack-image-manager/
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    maintain:
+      - maintainers
+    pull:
+    push:
+    admin:
+      - admins
+  collaborators:
+    maintain:
+    pull:
+    push:
+    admin:
+  topics:
+    - openstack
+    - openstack-glance
