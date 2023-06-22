@@ -19,7 +19,7 @@ must be created with the following permissions:
   members, organization administration, organization announcement banners, and
   organization projects
 * Repository permissions: Read access to metadata, Read and Write access to
-  administration and code
+  administration, code, and issues
 
 ## Usage
 
