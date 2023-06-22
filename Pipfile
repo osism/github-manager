@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 PyGithub = "*"
-ansible = "*"
+ansible-core = "*"
 requests = "*"
 
 [dev-packages]
