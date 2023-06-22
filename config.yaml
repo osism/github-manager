@@ -1,8 +1,4 @@
 ---
-milestones:
-  - 'v3.0.0'
-  - 'v4.0.0'
-
 labels:
   - name: needs rework
     description: "Needs rework"

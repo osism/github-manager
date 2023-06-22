@@ -2,7 +2,7 @@
 enforce_admins: true
 required_status_checks: null
 required_pull_request_reviews:
-  required_approving_review_count: 0
+  required_approving_review_count: 1
 restrictions: null
 required_linear_history: false
 allow_force_pushes: false

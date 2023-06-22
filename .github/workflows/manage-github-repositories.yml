@@ -33,7 +33,7 @@ jobs:
 
       - name: Manage github repositories with Ansible
         run: |
-          pipenv run ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
+          pipenv run ansible-playbook -i localhost, playbook.yaml -e github_token=$GITHUB_TOKEN
         env:
           GITHUB_TOKEN: ${{ secrets.GHP }}
 
