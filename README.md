@@ -10,15 +10,25 @@ pipenv shell
 ansible-galaxy collection install ansible-collection-gitcontrol
 ```
 
-## Usage
+## Prerequisite
 
-As a prerequisite, a PAT must be created. The rights ``repo`` and ``admin:org``
-are required.
+A fine-grained personal access token (https://github.com/settings/tokens?type=beta)
+must be created with the following permissions:
+
+* Organization permissions: Read and Write access to custom repository roles,
+  members, organization administration, organization announcement banners, and
+  organization projects
+* Repository permissions: Read access to metadata, Read and Write access to
+  administration and code
+
+## Usage
 
 ```sh
 export GITHUB_TOKEN="<github-token>"
-ansible-playbook -i localhost, playbook.yaml -e github_token=$GITHUB_TOKEN
+ansible-playbook -i localhost, playbook.yaml
 ```
+
+Set ``-e log=true`` to enable logging output.
 
 ## Limitiations
 
