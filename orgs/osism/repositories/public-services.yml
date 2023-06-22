@@ -3,7 +3,7 @@ public-services:
   default_branch: main
   description: Public available services such as Elastisearch or Kibana
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
