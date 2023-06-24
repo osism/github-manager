@@ -1,7 +1,7 @@
 ---
-openstack-horizon-themes:
+openstack-themes:
   default_branch: main
-  description: Custom OpenStack Horizon themes
+  description: Custom OpenStack Horizon & Skyline themes
   homepage: https://osism.tech
   archived: false
   has_issues: true
