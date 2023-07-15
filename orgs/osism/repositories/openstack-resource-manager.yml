@@ -15,6 +15,7 @@ openstack-resource-manager:
   teams:
     maintain:
       - maintainers
+      - b1systems
     pull:
     push:
     admin:
