@@ -5,7 +5,7 @@
   vars:
     github_token: "{{ lookup('ansible.builtin.env', 'GITHUB_TOKEN') }}"
     gitstyring_root_dir: .
-    log: false
+    no_log: true
 
   tasks:
     # - name: Manage people
@@ -22,4 +22,4 @@
       opentelekomcloud.gitcontrol.repositories:
         root: "{{ gitstyring_root_dir }}"
         token: "{{ github_token }}"
-      no_log: "{{ log }}"
+      no_log: "{{ no_log }}"
