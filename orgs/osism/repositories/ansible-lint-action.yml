@@ -3,7 +3,7 @@ ansible-lint-action:
   default_branch: main
   description: GitHub Action for running ansible-lint as part of your workflows
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
