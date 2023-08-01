@@ -1,7 +1,7 @@
 ---
 defaults:
   default_branch: main
-  description: All defaults that are not part of ansible-defaults
+  description: All OSISM defaults configurations and parameters
   homepage: https://www.osism.tech
   archived: false
   has_issues: true
@@ -24,5 +24,6 @@ defaults:
     pull:
     push:
     admin:
-  topics: []
+  topics:
+    - ansible
   protection_rules: default
