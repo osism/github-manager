@@ -17,6 +17,7 @@ python-osism:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

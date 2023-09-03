@@ -17,6 +17,7 @@ ansible-collection-commons:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

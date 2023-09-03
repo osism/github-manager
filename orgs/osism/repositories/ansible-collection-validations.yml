@@ -17,6 +17,7 @@ ansible-collection-validations:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

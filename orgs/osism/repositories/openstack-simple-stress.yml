@@ -17,6 +17,7 @@ openstack-simple-stress:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

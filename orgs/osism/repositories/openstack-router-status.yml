@@ -17,6 +17,7 @@ openstack-router-status:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

@@ -17,6 +17,7 @@ ansible-collection-services:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:
