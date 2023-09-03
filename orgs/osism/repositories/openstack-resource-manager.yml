@@ -18,6 +18,7 @@ openstack-resource-manager:
       - b1systems
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

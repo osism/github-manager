@@ -17,6 +17,7 @@ openstack-sandbox-manager:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

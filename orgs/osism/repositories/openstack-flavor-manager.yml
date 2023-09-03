@@ -17,6 +17,7 @@ openstack-flavor-manager:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:
