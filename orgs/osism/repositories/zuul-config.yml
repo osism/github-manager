@@ -2,7 +2,7 @@
 zuul-config:
   default_branch: main
   description: Zuul config
-  homepage: https://zuul.osism.xyz/tenants
+  homepage: https://zuul.services.betacloud.xyz
   archived: false
   has_issues: true
   has_projects: false

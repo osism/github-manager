@@ -1,7 +1,7 @@
 ---
-zuul-jobs:
+zuul-test-b:
   default_branch: main
-  description: Zuul jobs
+  description: Test repository B for Zuul
   homepage: https://zuul.services.betacloud.xyz
   archived: false
   has_issues: true
