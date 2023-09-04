@@ -1,8 +1,8 @@
 ---
-openstack-images:
+openstack-flavors:
   default_branch: main
-  description: Image definition files for the OpenStack Image Manager
-  homepage: https://github.com/osism/openstack-image-manager
+  description: Flavor definition files for the OpenStack Flaovr Manager
+  homepage: https://github.com/osism/openstack-flavor-manager
   archived: false
   has_issues: true
   has_projects: false
@@ -26,4 +26,4 @@ openstack-images:
     admin:
   topics:
     - openstack
-    - openstack-glance
+    - openstack-nova
