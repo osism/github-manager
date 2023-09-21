@@ -17,6 +17,7 @@ osism.github.io:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:
