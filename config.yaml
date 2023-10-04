@@ -66,3 +66,6 @@ labels:
   - name: refactoring
     description: "Improving something without adding new or changing existing functionality"
     color: "b9e1c3"
+  - name: zuul
+    description: "Release the dragons, run Zuul CI"
+    color: "3cf7be"
