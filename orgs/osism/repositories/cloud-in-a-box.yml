@@ -18,6 +18,7 @@ cloud-in-a-box:
     pull:
     push:
       - developers
+      - scoopex
     admin:
       - admins
   collaborators:
