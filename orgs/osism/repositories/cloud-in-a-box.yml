@@ -17,6 +17,7 @@ cloud-in-a-box:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:
