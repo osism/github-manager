@@ -69,3 +69,6 @@ labels:
   - name: zuul
     description: "Release the dragons, run Zuul CI"
     color: "3cf7be"
+  - name: renovate
+    description: "PR created by Renovate"
+    color: "#28163a"
