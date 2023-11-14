@@ -4,6 +4,12 @@
     check:
       jobs:
         - yamllint
+        - python-black
     gate:
       jobs:
         - yamllint
+        - python-black
+    periodic-daily:
+      jobs:
+        - yamllint
+        - python-black
