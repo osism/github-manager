@@ -23,7 +23,6 @@ with open("config.yaml") as fp:
     CONFIG = yaml.load(fp, Loader=yaml.SafeLoader)
 
 for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type="public"):
-
     if gh_repository.archived:
         continue
 
