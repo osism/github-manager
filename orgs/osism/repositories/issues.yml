@@ -16,8 +16,11 @@ issues:
     maintain:
       - maintainers
     pull:
-    push:
       - developers
+      - dnation
+      - osb-alliance
+      - plusserver
+    push:
     admin:
       - admins
   collaborators:

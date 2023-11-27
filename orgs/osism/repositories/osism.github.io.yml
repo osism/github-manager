@@ -18,6 +18,8 @@ osism.github.io:
     pull:
     push:
       - developers
+      - osb-alliance
+      - plusserver
     admin:
       - admins
   collaborators:

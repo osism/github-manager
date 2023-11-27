@@ -18,6 +18,7 @@ testbed:
     pull:
     push:
       - developers
+      - osb-alliance
     admin:
       - admins
   collaborators:
