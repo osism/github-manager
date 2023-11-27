@@ -17,6 +17,9 @@ ansible-playbooks-manager:
       - maintainers
     pull:
     push:
+      - developers
+      - dnation
+      - plusserver
     admin:
       - admins
   collaborators:

@@ -17,6 +17,8 @@ node-image:
       - maintainers
     pull:
     push:
+      - developers
+      - osb-alliance
     admin:
       - admins
   collaborators:

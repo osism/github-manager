@@ -17,6 +17,7 @@ defaults:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

@@ -17,6 +17,8 @@ cfg-cookiecutter:
       - maintainers
     pull:
     push:
+      - developers
+      - plusserver
     admin:
       - admins
   collaborators:

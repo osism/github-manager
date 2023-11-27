@@ -17,6 +17,7 @@ cfg-generics:
       - maintainers
     pull:
     push:
+      - developers
     admin:
       - admins
   collaborators:

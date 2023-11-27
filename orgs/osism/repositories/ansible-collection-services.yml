@@ -18,6 +18,8 @@ ansible-collection-services:
     pull:
     push:
       - developers
+      - dnation
+      - plusserver
     admin:
       - admins
   collaborators:
