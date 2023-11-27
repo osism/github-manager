@@ -3,7 +3,7 @@ openstack-image-gardenlinux:
   default_branch: main
   description: Machine images for use with the Gardener service
   homepage: https://www.osism.tech
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
