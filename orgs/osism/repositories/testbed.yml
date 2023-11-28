@@ -18,7 +18,9 @@ testbed:
     pull:
     push:
       - developers
+      - dnation
       - osb-alliance
+      - plusserver
     admin:
       - admins
   collaborators:
