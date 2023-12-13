@@ -2,7 +2,7 @@
 openstack-configuration-reference:
   default_branch: main
   description: Generator for a searchable OpenStack configuration reference
-  homepage: https://docs.osism.tech/reference
+  homepage: https://osism.github.io/docs/references/configuration
   archived: false
   has_issues: true
   has_projects: false
