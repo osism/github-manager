@@ -2,7 +2,7 @@
 helm-charts:
   default_branch: gh-pages
   description: Helm charts
-  homepage: https://osism.github.io/helm-charts
+  homepage: https://osism.tech/helm-charts
   archived: false
   has_issues: true
   has_projects: false

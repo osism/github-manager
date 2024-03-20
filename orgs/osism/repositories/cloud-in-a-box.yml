@@ -2,7 +2,7 @@
 cloud-in-a-box:
   default_branch: main
   description: Cloud in a box
-  homepage: https://osism.github.io/docs/guides/deploy-guide/examples/cloud-in-a-box
+  homepage: https://osism.tech/docs/guides/other-guides/cloud-in-a-box
   archived: false
   has_issues: true
   has_projects: false

@@ -2,7 +2,7 @@
 cfg-cookiecutter:
   default_branch: main
   description: Cookiecutter template for an OSISM configuration repository
-  homepage: https://osism.github.io/docs/getting-started/configuration-repository/#initial-creation
+  homepage: https://osism.tech/docs/getting-started/configuration-repository/#initial-creation
   archived: false
   has_issues: true
   has_projects: false

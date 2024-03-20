@@ -2,7 +2,7 @@
 osism.github.io:
   default_branch: main
   description: OSISM documentation
-  homepage: https://osism.github.io
+  homepage: https://osism.tech
   archived: false
   has_issues: true
   has_projects: false

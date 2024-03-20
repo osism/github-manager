@@ -2,7 +2,7 @@
 ansible-collection-services:
   default_branch: main
   description: Ansible collection with service roles
-  homepage: https://osism.github.io/docs/guides/configuration-guide/services/
+  homepage: https://osism.tech/docs/guides/configuration-guide/services/
   archived: false
   has_issues: true
   has_projects: false
