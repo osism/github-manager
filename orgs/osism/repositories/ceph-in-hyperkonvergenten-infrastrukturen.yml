@@ -2,7 +2,7 @@
 ceph-in-hyperkonvergenten-infrastrukturen:
   default_branch: main
   description: Vortrag über den Einsatz von Ceph in hyperkonvergenten Infrastrukturen am Beispiel von OpenStack
-  homepage: https://osism.github.io/ceph-in-hyperkonvergenten-infrastrukturen/
+  homepage: https://osism.tech/ceph-in-hyperkonvergenten-infrastrukturen/
   archived: false
   has_issues: true
   has_projects: false

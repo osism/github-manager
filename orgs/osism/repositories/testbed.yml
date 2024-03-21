@@ -2,7 +2,7 @@
 testbed:
   default_branch: main
   description: With this testbed, it is possible to run a full OSISM installation, the baseline of the Sovereign Cloud Stack, on an existing OpenStack environment such as Cleura or REGIO.cloud.
-  homepage: https://osism.github.io/docs/guides/deploy-guide/examples/testbed
+  homepage: https://osism.tech/docs/guides/other-guides/testbed
   archived: false
   has_issues: true
   has_projects: false
